@@ -1,0 +1,9 @@
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("create", views.create_listing, name="create"),
+    path("listing/<int:listing_id>", views.listing_page, name="listing"),
+    path("watchlist", views.watchlist, name="watchlist"),
+    path("categories", views.categories, name="categories"),
+    path("category/<int:category_id>", views.category_listings, name="category_listings"),
+    # ... rotas de login/logout/register já existentes
+]
