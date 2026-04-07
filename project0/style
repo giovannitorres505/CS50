@@ -1,0 +1,117 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    text-align: right;
+    padding: 20px;
+}
+
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Container Principal */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sub-label {
+    color: #4285f4;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+/* Barra de Busca */
+.search-box {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 584px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin: 20px 0;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Botões */
+.button-container {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding: 10px 16px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Advanced Search Específico */
+.advanced-header {
+    color: #d93025;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-container {
+    padding: 40px;
+    width: 600px;
+}
+
+.advanced-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.advanced-row label {
+    font-size: 14px;
+}
+
+.advanced-row input {
+    width: 400px;
+    height: 25px;
+    border: 1px solid #dfe1e5;
+}
+
+.btn-advanced {
+    background-color: #4b8df8 !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 8px 15px !important;
+}
