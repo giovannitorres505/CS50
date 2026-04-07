@@ -1,0 +1,7 @@
+{% if not listing.active %}
+    {% if highest_bidder == user %}
+        <div class="alert alert-success">Parabéns! Você venceu este leilão.</div>
+    {% else %}
+        <div class="alert alert-info">Este leilão está encerrado.</div>
+    {% endif %}
+{% endif %}
